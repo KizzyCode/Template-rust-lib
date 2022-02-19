@@ -1,0 +1,30 @@
+[package]
+name = "FIXME"
+version = "0.1.0"
+edition = "2021"
+authors = ["KizzyCode Software Labs./Keziah Biermann <development@kizzycode.de>"]
+keywords = []
+categories = []
+description = "FIXME"
+license = "BSD-2-Clause OR MIT"
+repository = "https://github.com/KizzyCode/FIXME-rust"
+readme = "README.md"
+
+
+[badges]
+appveyor = { repository = "KizzyCode/FIXME-rust" }
+
+
+[features]
+default = []
+
+
+[dependencies]
+
+
+[profile.release]
+overflow-checks = true
+
+
+[profile.bench]
+overflow-checks = true
